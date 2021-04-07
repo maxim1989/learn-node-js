@@ -1,0 +1,25 @@
+{
+  "name": "node-examples",
+  "version": "1.0.0",
+  "description": "Simple node examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxim1989/learn-node-js.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "mongodb"
+  ],
+  "author": "Fedorov Maksim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxim1989/learn-node-js/issues"
+  },
+  "homepage": "https://github.com/maxim1989/learn-node-js#readme"
+}
