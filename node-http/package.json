@@ -1,0 +1,20 @@
+{
+  "name": "node-http",
+  "version": "1.0.0",
+  "description": "Node HTTP Module Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxim1989/learn-node-js.git"
+  },
+  "author": "Maksim Fedorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxim1989/learn-node-js/issues"
+  },
+  "homepage": "https://github.com/maxim1989/learn-node-js#readme"
+}
