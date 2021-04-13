@@ -18,6 +18,14 @@ const dishRouter = require('./routes/dishRouter');
 
 app.use('/dishes', dishRouter);
 
+const promoRouter = require('./routes/promoRouter');
+
+app.use('/promotions', promoRouter);
+
+const leaderRouter = require('./routes/leaderRouter');
+
+app.use('/leaders', leaderRouter);
+
 app.use((req, res, next) => {
     console.log(req.headers);
     res.statusCode = 200;
