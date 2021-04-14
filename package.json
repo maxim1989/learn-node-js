@@ -1,0 +1,22 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DJS sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongod": "mongod --dbpath=mongodb/data --bind_ip 127.0.0.1",
+    "mongodwin": "mongod --dbpath=\"C:\\Users\\Maksim\\Desktop\\learn-node-js\\mongodb\\data\" --bind_ip 127.0.0.1",
+    "mongo": "mongo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxim1989/learn-node-js.git"
+  },
+  "author": "Maksim Fedorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxim1989/learn-node-js/issues"
+  },
+  "homepage": "https://github.com/maxim1989/learn-node-js#readme"
+}
