@@ -1,5 +1,16 @@
 var createError = require('http-errors');
 var express = require('express');
+const mongoose = require('mongoose');
+
+const Dishes = require('./models/dishes');
+
+const url = 'mongodb://localhost:27017/conFusion';
+const connect = mongoose.connect(url);
+
+connect.then((db) => {
+    console.log("Connected correctly to server");
+}, (err) => { console.log(err); });
+
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
