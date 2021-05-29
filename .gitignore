@@ -109,3 +109,5 @@ package-lock.json
 /mongodb
 
 /conFusionServer/sessions
+/conFusionServer/config.js
+/conFusionServer/public/index.html
